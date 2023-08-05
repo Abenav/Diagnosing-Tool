@@ -6,7 +6,7 @@
         },
         {"tag": "Me",
          "patterns": ["Who are you?", "who is it?", "what is your name?", "what are you"],
-         "responses": ["Hi there, I am LARS(Lavish- Abraham- Rohan- Sai Teja). Nice to meet You!"],
+         "responses": ["Hi there, I am DT. Nice to meet You!"],
          "context": [""]
         },
 
