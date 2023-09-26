@@ -50,6 +50,7 @@ def clean_up_sentence(sentence):
     sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
     return sentence_words
 
+#Creates  a vector of the words present with 0 or 1
 def bow(sentence, words):  # Define the bow function
     sentence_words = clean_up_sentence(sentence)
     bag = [0] * len(words)
