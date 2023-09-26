@@ -20,6 +20,7 @@ ignore_words = ['?', '!']
 data_file = open('intents.json').read()
 intents = json.loads(data_file)
 
+#Iterate through intents
 for intent in intents['intents']:
     for pattern in intent['patterns']:
         w = nltk.word_tokenize(pattern)  # Tokenize using 'punkt' tokenizer
